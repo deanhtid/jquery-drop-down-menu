@@ -29,8 +29,7 @@ $('#menu a').each(function() {
 
 // Bind change listener to the select.
 $select.change(function() {
-  
+
   // Go to select's location.
   window.location = $select.val();
 });
-
